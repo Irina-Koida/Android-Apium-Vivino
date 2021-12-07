@@ -1,10 +1,7 @@
-﻿using AndroidTestsApium.Drivers;
-using AndroidTestsApium.POM;
+﻿using AndroidTestsApium.POM;
 using NUnit.Framework;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
-using System;
-using System.Threading;
 using TechTalk.SpecFlow;
 
 namespace AndroidTestsApium

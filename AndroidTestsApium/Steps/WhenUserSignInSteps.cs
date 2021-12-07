@@ -1,7 +1,6 @@
 ﻿using AndroidTestsApium.POM;
 using NUnit.Framework;
 using OpenQA.Selenium.Appium.Android;
-using System;
 using TechTalk.SpecFlow;
 
 namespace AndroidTestsApium.Steps
