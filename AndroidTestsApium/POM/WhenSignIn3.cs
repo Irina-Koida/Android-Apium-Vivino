@@ -39,7 +39,6 @@ namespace AndroidTestsApium.POM
         {
             _driver.FindElement(_settingsLastName).Click();
             _action.MoveToElement(_driver.FindElement(_editNameLast)).SendKeys("Koida").Perform();
-
         }
 
         public void TapOkLast()

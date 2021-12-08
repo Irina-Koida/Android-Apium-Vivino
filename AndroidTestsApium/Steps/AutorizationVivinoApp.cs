@@ -41,7 +41,6 @@ namespace AndroidTestsApium
         [When(@"I put personal emai ""([^""]*)""")]
         public void WhenIPutPersonalEmai(string inputEmail)
         {
-            //Thread.Sleep(300);
             _autorizationPage.EmailInput(inputEmail);
         }
 
@@ -54,7 +53,6 @@ namespace AndroidTestsApium
         [When(@"I put password ""([^""]*)""")]
         public void WhenIPutPassword(string inputPassword)
         {
-            //Thread.Sleep(300);
             _autorizationPage.PasswordInput(inputPassword);
         }
 
@@ -68,7 +66,6 @@ namespace AndroidTestsApium
         public void ThenForYouPageWithTitleOpens(string title)
         {
             Assert.AreEqual(actual: _autorizationPage.ForYouPageTitle(title), expected: title);
-
         }
     }
 }

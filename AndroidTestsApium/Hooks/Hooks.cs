@@ -22,10 +22,10 @@ namespace AndroidTestsApium.Hooks
             _scenarioContext.Set(appiumDriver.InitializeAppium(), "driver");
         }
 
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            _scenarioContext.Get<AndroidDriver<AndroidElement>>("driver").Dispose();
-        }
+        //[AfterScenario]
+        //public void AfterScenario()
+        //{
+        //    _scenarioContext.Get<AndroidDriver<AndroidElement>>("driver").Dispose();
+        //}
     }
 }

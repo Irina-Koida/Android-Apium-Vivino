@@ -24,9 +24,7 @@ namespace AndroidTestsApium.POM
 
         public AutorizationPage HaveAnAccountButtonTap()
         {
-            _driver
-                .FindElement(_haveAnAccountButton)
-                .Click();
+            _driver .FindElement(_haveAnAccountButton).Click();
             return this;
         }
 
@@ -41,41 +39,31 @@ namespace AndroidTestsApium.POM
 
         public AutorizationPage EmailTap()
         {
-            _driver
-                .FindElement(_emailField)
-                .Click();
+            _driver .FindElement(_emailField).Click();
             return this;
         }
 
         public AutorizationPage EmailInput(string inputEmail)
         {
-            _driver
-                .FindElement(_emailField2)
-                .SendKeys(inputEmail);
+            _driver.FindElement(_emailField2) .SendKeys(inputEmail);
             return this;
         }
 
         public AutorizationPage PasswordTapField()
         {
-            _driver
-                .FindElement(_passwordField)
-                .Click();
+            _driver .FindElement(_passwordField) .Click();
             return this;
         }
 
         public AutorizationPage PasswordInput(string inputPassword)
         {
-            _driver
-                .FindElement(_passwordField2)
-                .SendKeys(inputPassword);
+            _driver .FindElement(_passwordField2) .SendKeys(inputPassword);
             return this;
         }
 
         public AutorizationPage LogInButtonTap()
         {
-            _driver
-                .FindElement(_logInButton)
-                .Click();
+            _driver .FindElement(_logInButton)  .Click();
             return this;
         }
 

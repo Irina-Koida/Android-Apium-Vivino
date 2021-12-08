@@ -1,8 +1,8 @@
-﻿using AndroidTestsApium.POM;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using TechTalk.SpecFlow;
+using AndroidTestsApium.POM;
 
 namespace AndroidTestsApium
 {

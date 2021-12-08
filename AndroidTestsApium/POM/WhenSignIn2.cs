@@ -61,7 +61,6 @@ namespace AndroidTestsApium.POM
         {
             _driver.FindElement(_settingsName).Click();
             _action.MoveToElement(_driver.FindElement(_editName)).SendKeys("Iririna").Perform();
-
         }
 
         public string TopListText(string text) =>
